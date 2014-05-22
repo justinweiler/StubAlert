@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b28bf6a7-17df-4338-bd92-0635e66f4c4a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:14148/SendAlert.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SendAlert.disco" MetadataType="Disco" ID="42c66f32-bf11-4a8b-bb72-1c523fcaa436" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?disco" />
+    <MetadataFile FileName="SendAlert.xsd" MetadataType="Schema" ID="aa07ad14-6b2d-462c-a875-1fe4785cbac5" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?xsd=xsd1" />
+    <MetadataFile FileName="SendAlert1.xsd" MetadataType="Schema" ID="e57cfbee-2619-4d56-af48-5e2ab4daafae" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?xsd=xsd0" />
+    <MetadataFile FileName="SendAlertSvc.wsdl" MetadataType="Wsdl" ID="23e0a571-7cad-4e2c-a9be-25d43f42453f" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?wsdl" />
+    <MetadataFile FileName="SendAlert2.xsd" MetadataType="Schema" ID="3c29599e-3e32-4239-a2fd-226a7c245b45" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?xsd=xsd2" />
+    <MetadataFile FileName="SendAlert3.xsd" MetadataType="Schema" ID="b0bbe223-0b26-4711-a1ba-6cead9ed6cfb" SourceId="1" SourceUrl="http://localhost:14148/SendAlert.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
